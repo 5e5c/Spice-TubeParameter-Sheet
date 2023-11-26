@@ -1,0 +1,32 @@
+Version 4
+SymbolType BLOCK
+LINE Normal -48 0 -28 0
+LINE Normal -20 0 -12 0
+LINE Normal -4 0 4 0
+LINE Normal 12 0 20 0
+LINE Normal 28 0 36 0
+LINE Normal 0 -48 0 -16
+LINE Normal -20 -16 20 -16
+LINE Normal -20 -12 20 -12
+LINE Normal -20 -16 -20 -12
+LINE Normal 20 -16 20 -12
+LINE Normal -24 12 24 12
+LINE Normal -32 48 -32 20
+LINE Normal -24 12 -32 20
+LINE Normal 24 12 32 20
+LINE Normal -28 16 28 16
+CIRCLE Normal -48 -48 48 48
+WINDOW 0 8 -64 Left 2
+WINDOW 3 -24 64 Left 2
+SYMATTR Value Triode
+SYMATTR Description Triode model by Norman L. Koren
+SYMATTR SpiceLine mu=36.355285719074 ex=1.20250741337026 kg1=198.567169007515 kp=209.516232018477 kvb=581.404179899561 RGC=2k CAC=0.18p CAG=1.4p CGC=3.1p
+PIN 0 -48 NONE 0
+PINATTR PinName Anode
+PINATTR SpiceOrder 1
+PIN -48 0 NONE 0
+PINATTR PinName Grid
+PINATTR SpiceOrder 2
+PIN -32 48 NONE 0
+PINATTR PinName Cathode
+PINATTR SpiceOrder 3
